@@ -5,7 +5,6 @@ library(dplyr)
 library(devtools)
 library(phyloseq)
 library(ape)
-library("biomformat")
 library(vegan)
 library(RColorBrewer)
 library(circlize)
@@ -54,8 +53,22 @@ pdf("Fractional_abundance_b.pdf", width=20, height=14)
 plot_bar(marmictrans, x= "Sample", fill = "Class") + facet_grid(. ~ Group, scales = "free", space = "free") + geom_bar(aes(color=Class, fill=Class), stat='identity', position='stack') + ylab("Fractional abundance") + theme_bw() + theme(axis.title = element_text(size=15, face="bold")) + theme(axis.text = element_text(size=13)) + theme(legend.text = element_text(size = 13)) + theme(legend.title = element_text(size = 15, face="bold")) + theme(strip.text.x = element_text(size = 15, face="bold")) + theme(legend.key = element_rect(size = 0.4)) + theme(legend.position="bottom") + scale_color_viridis(discrete = TRUE) + scale_fill_viridis(discrete = TRUE) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 dev.off()
 
-colors <- c("cornflowerblue", "pink1", "red1", "goldenrod1", "maroon4", "midnightblue", "cyan4")
-colors2 <- c("midnightblue", "powderblue", "goldenrod1", "red2", "pink1", "darkgrey", "cornflowerblue", "maroon4", "lightseagreen", "darkorange")
+
+# Group
+colors <- c("Fish" = "cornflowerblue", "Isopod" = "pink1", "Krill" = "red1", "Polychaete" = "goldenrod1", "Shrimp" = "maroon4", "Squid" = "midnightblue", "Tunicate" = "cyan4")
+# Species
+colors2 <- c("Acanthamunnopsis" = "mistyrose", "Cyclothone" = "lightblue1", "Krill" = "red1", "Munneurycope" = "pink2", "Myctophid" = "royalblue1", "Poeobius" = "lightgoldenrod1", "Sergestes" = "maroon4", "Tomopteris" = "darkgoldenrod1", "Vampyroteuthis" = "midnightblue", "Vitreosalpa" = "cyan4")
+# Migration
+colors3 <- c("Yes" = "paleturquoise4", "No" = "palevioletred4", "Unknown" = "darkgrey")
+# Diet
+colors4 <- c("Detritus" = "papayawhip", "Marine Snow" = "sandybrown", "Mixed" = "darkkhaki", "Phytoplankton" = "darkgreen", "Zooplankton" = "saddlebrown")
+# Depth
+colors5 <- c("239-244" = "#EFF3FF", "278-337" = "#C6DBEF", "448-455" = "#9ECAE1", "500-900" = "#6BAED6", "814-909" = "#4292C6", "540-1700" = "#2171B5", "500-1800" = "#084594")
+
+
+sample_data(marmictrans)$Depth <- factor(sample_data(marmictrans)$Depth, levels = c("239-244", "278-337", "448-455", "500-900", "814-909", "540-1700", "500-1800"))
+sample_data(marmictrans)$Migration <- factor(sample_data(marmictrans)$Migration, levels = c("Yes", "No", "Unknown"))
+
 
 # PCoA ordination plots
 PCoA1 <- ordinate(marmictrans, "PCoA", "unifrac", weighted = TRUE)
@@ -69,6 +82,19 @@ pdf("PCoA_Unifrac_b.pdf")
 p1 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
 
+pdf("PCoA_Unifrac_c.pdf")
+p1 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_Unifrac_d.pdf")
+p1 + scale_fill_manual(values = colors4, name="Diet") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Diet)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_Unifrac_e.pdf")
+p1 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+
 PCoA2 <- ordinate(marmictrans, "PCoA", "bray")
 p2 <- plot_ordination(marmictrans, PCoA2)
 
@@ -79,6 +105,19 @@ dev.off()
 pdf("PCoA_Bray_b.pdf")
 p2 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
+
+pdf("PCoA_Bray_c.pdf")
+p2 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_Bray_d.pdf")
+p2 + scale_fill_manual(values = colors4, name="Diet") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Diet)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_Bray_e.pdf")
+p2 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
 
 PCoA3 <- ordinate(marmictrans, "PCoA", "unifrac", weighted = FALSE)
 p3 <- plot_ordination(marmictrans, PCoA3)
@@ -91,6 +130,19 @@ pdf("PCoA_uwUnifrac_b.pdf")
 p3 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
 
+pdf("PCoA_uwUnifrac_c.pdf")
+p3 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_uwUnifrac_d.pdf")
+p3 + scale_fill_manual(values = colors4, name="Diet") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Diet)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+pdf("PCoA_uwUnifrac_e.pdf")
+p3 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+dev.off()
+
+
 # Alpha diversity
 pdf("Alpha_diversity.pdf")
 plot_richness(marmictrans, x="Species", measures=c("Shannon", "Simpson")) + scale_fill_manual(values = colors, name="Group") + theme_bw() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Group)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
@@ -100,6 +152,7 @@ dev.off()
 marmicbray <- distance(marmictrans, method = "bray")
 sampledf <- data.frame(sample_data(marmic))
 
+sink("PERMANOVA.txt")
 # Adonis test
 adonis(marmicbray ~ Group, data = sampledf)
 adonis(marmicbray ~ Species, data = sampledf)
@@ -114,6 +167,7 @@ permutest(beta2)
 
 beta3 <- betadisper(marmicbray, sampledf$Diet)
 permutest(beta3)
+sink()
 
 # CSS normalization
 
