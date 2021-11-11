@@ -10,9 +10,19 @@ library(vegan)
 setwd("/Users/Corinna/Documents/PostDoc/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/Mantel_Test")
 
 microbiome <- import_biom("zotu-table-microbiome_tax.biom", parseFunction = parse_taxonomy_default)
-microbiometrans <- transform_sample_counts(microbiome, function(x) x/sum(x))
+mapFile <- import_qiime_sample_data("Smithsonian_metadata.txt")
+biomMapFile <- merge_phyloseq(microbiome, mapFile)
+repsetFile <- Biostrings::readDNAStringSet("dna-sequences.fasta")
+names(repsetFile) <- gsub("\\s.+$", "", names(repsetFile))
+treefile <- read_tree("tree.nwk")
+new_tre <- ape::multi2di(treefile)
+biomMapTree <- merge_phyloseq(biomMapFile, new_tre)
+phyloseq <- merge_phyloseq(biomMapTree, repsetFile)
+colnames(tax_table(phyloseq)) = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
 
-microbiome.dist <- distance(microbiometrans, method="bray")
+microbiometrans <- transform_sample_counts(phyloseq, function(x) x/sum(x))
+
+microbiome.dist <- UniFrac(microbiometrans, weighted=TRUE)
 
 
 diet <- import_biom("zotu-table-diet_tax.biom", parseFunction = parse_taxonomy_default)

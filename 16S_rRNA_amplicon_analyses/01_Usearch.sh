@@ -33,19 +33,22 @@ usearch11 -otutab all_merged.fq -zotus zotus.fa -sample_delim . -otutabout zotus
 export LC_ALL=en_US.utf8
 export LANG=en_US.utf8
 
-source activate qiime2-2019.10
+source activate qiime2-2021.4
 
 biom convert -i zotus.txt -o zotu-table.biom --to-hdf5 --table-type="OTU table"
 
 qiime tools import --input-path zotu-table.biom --type 'FeatureTable[Frequency]' --input-format BIOMV210Format --output-path zotu-table.qza
 qiime tools import --input-path zotus.fa --output-path zotu_seqs.qza --type 'FeatureData[Sequence]'
 
-qiime tools import --type 'FeatureData[Sequence]' --input-path silva_132_99_16S.fna --output-path silva_132_99_otus.qza
-qiime tools import --type 'FeatureData[Taxonomy]' --input-format HeaderlessTSVTaxonomyFormat --input-path silva_132_99_16S_consensus_taxonomy.txt --output-path silva_132_99-taxonomy.qza
-qiime feature-classifier extract-reads --i-sequences silva_132_99_otus.qza --p-f-primer GTGCCAGCMGCCGCGGTAA --p-r-primer GGACTACHVGGGTWTCTAAT --p-trunc-len 150 --p-min-length 100 --p-max-length 400 --o-reads silva_132_99-ref-seqs.qza
-qiime feature-classifier fit-classifier-naive-bayes --i-reference-reads silva_132_99-ref-seqs.qza --i-reference-taxonomy silva_132_99-taxonomy.qza --o-classifier silva-132-99-515F-806R-classifier.qza
+qiime feature-classifier extract-reads --i-sequences silva-138-99-seqs.qza --p-f-primer GTGCCAGCMGCCGCGGTAA --p-r-primer GGACTACHVGGGTWTCTAAT --p-trunc-len 150 --p-min-length 100 --p-max-length 400 --o-reads silva-138-99-ref-seqs.qza
+qiime feature-classifier fit-classifier-naive-bayes --i-reference-reads silva-138-99-ref-seqs.qza --i-reference-taxonomy silva-138-99-tax.qza --o-classifier silva-138-99-515F-806R-classifier.qza
 
-qiime feature-classifier classify-sklearn --i-classifier silva-132-99-515F-806R-classifier.qza --i-reads zotu_seqs.qza --o-classification taxonomy.qza --p-n-jobs 1
+qiime feature-classifier classify-sklearn --i-classifier silva-138-99-515F-806R-classifier.qza --i-reads zotu_seqs.qza --o-classification taxonomy.qza --p-n-jobs 1
+
+# Insert short fragments into SILVA phylogeny. This approach is more accurate than creating a de novo phylogeny for short fragments (<= 150 bp)
+qiime fragment-insertion sepp --i-representative-sequences zotu_seqs.qza --p-threads 24 --verbose --i-reference-database sepp-refs-silva-128.qza --o-tree rooted-tree.qza --o-placements placements.qza
 
 # Export all results for further filtering
 qiime tools export --input-path taxonomy.qza --output-path unfiltered
+qiime tools export --input-path rooted-tree.qza --output-path unfiltered
+qiime tools export --input-path placements.qza --output-path unfiltered

@@ -10,6 +10,7 @@ library(RColorBrewer)
 library(circlize)
 library(rbiom)
 library(viridis)
+library(psych)
 
 setwd("/Users/Corinna/Documents/PostDoc/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/microbiome")
 
@@ -56,17 +57,20 @@ dev.off()
 
 # Group
 colors <- c("Fish" = "cornflowerblue", "Isopod" = "pink1", "Krill" = "red1", "Polychaete" = "goldenrod1", "Shrimp" = "maroon4", "Squid" = "midnightblue", "Tunicate" = "cyan4")
+#colors <- c("Fish" = "cornflowerblue", "Isopod" = "pink1", "Krill" = "red1", "Polychaete" = "goldenrod1", "Shrimp" = "maroon4", "Tunicate" = "cyan4")
 # Species
 colors2 <- c("Acanthamunnopsis" = "mistyrose", "Cyclothone" = "lightblue1", "Krill" = "red1", "Munneurycope" = "pink2", "Myctophid" = "royalblue1", "Poeobius" = "lightgoldenrod1", "Sergestes" = "maroon4", "Tomopteris" = "darkgoldenrod1", "Vampyroteuthis" = "midnightblue", "Vitreosalpa" = "cyan4")
+#colors2 <- c("Acanthamunnopsis" = "mistyrose", "Cyclothone" = "lightblue1", "Krill" = "red1", "Munneurycope" = "pink2", "Myctophid" = "royalblue1", "Poeobius" = "lightgoldenrod1", "Sergestes" = "maroon4", "Tomopteris" = "darkgoldenrod1", "Vitreosalpa" = "cyan4")
 # Migration
 colors3 <- c("Yes" = "paleturquoise4", "No" = "palevioletred4", "Unknown" = "darkgrey")
 # Diet
-colors4 <- c("Detritus" = "papayawhip", "Marine Snow" = "sandybrown", "Mixed" = "darkkhaki", "Phytoplankton" = "darkgreen", "Zooplankton" = "saddlebrown")
+colors4 <- c("Detritus" = "sandybrown", "Mixed" = "darkkhaki", "Phytoplankton" = "darkgreen", "Zooplankton" = "saddlebrown")
 # Depth
 colors5 <- c("239-244" = "#EFF3FF", "278-337" = "#C6DBEF", "448-455" = "#9ECAE1", "500-900" = "#6BAED6", "814-909" = "#4292C6", "540-1700" = "#2171B5", "500-1800" = "#084594")
-
+#colors5 <- c("239-244" = "#EFF3FF", "278-337" = "#C6DBEF", "448-455" = "#9ECAE1", "500-900" = "#6BAED6", "814-909" = "#4292C6", "500-1800" = "#084594")
 
 sample_data(marmictrans)$Depth <- factor(sample_data(marmictrans)$Depth, levels = c("239-244", "278-337", "448-455", "500-900", "814-909", "540-1700", "500-1800"))
+#sample_data(marmictrans)$Depth <- factor(sample_data(marmictrans)$Depth, levels = c("239-244", "278-337", "448-455", "500-900", "814-909", "500-1800"))
 sample_data(marmictrans)$Migration <- factor(sample_data(marmictrans)$Migration, levels = c("Yes", "No", "Unknown"))
 
 
@@ -149,27 +153,41 @@ plot_richness(marmictrans, x="Species", measures=c("Shannon", "Simpson")) + scal
 dev.off()
 
 # PERMANOVA
-marmicbray <- distance(marmictrans, method = "bray")
+marmicuf <- UniFrac(marmictrans, weighted=TRUE)
 sampledf <- data.frame(sample_data(marmic))
 
-sink("PERMANOVA.txt")
+sink("PERMANOVA_and_ANOSIM.txt")
 # Adonis test
-adonis(marmicbray ~ Group, data = sampledf)
-adonis(marmicbray ~ Species, data = sampledf)
-adonis(marmicbray ~ Diet, data = sampledf)
+adonis(marmicuf ~ Group, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicuf ~ Species, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicuf ~ Diet, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicuf ~ Migration, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicuf ~ Depth, data = sampledf, add = "cailliez", permutations = 999)
+
+anosim(marmicuf, sampledf$Group, permutations = 999)
+anosim(marmicuf, sampledf$Species, permutations = 999)
+anosim(marmicuf, sampledf$Diet, permutations = 999)
+anosim(marmicuf, sampledf$Migration, permutations = 999)
+anosim(marmicuf, sampledf$Depth, permutations = 999)
 
 # Dispersion test
-beta <- betadisper(marmicbray, sampledf$Group)
+beta <- betadisper(marmicuf, sampledf$Group)
 permutest(beta)
 
-beta2 <- betadisper(marmicbray, sampledf$Species)
+beta2 <- betadisper(marmicuf, sampledf$Species)
 permutest(beta2)
 
-beta3 <- betadisper(marmicbray, sampledf$Diet)
+beta3 <- betadisper(marmicuf, sampledf$Diet)
 permutest(beta3)
+
+beta4 <- betadisper(marmicuf, sampledf$Migration)
+permutest(beta4)
+
+beta5 <- betadisper(marmicuf, sampledf$Depth)
+permutest(beta5)
 sink()
 
-# CSS normalization
+# CSS normalization, not used
 
 metaseq <- phyloseq_to_metagenomeSeq(marmic)
 metaseqcss  = cumNorm(metaseq, p=cumNormStatFast(metaseq))
