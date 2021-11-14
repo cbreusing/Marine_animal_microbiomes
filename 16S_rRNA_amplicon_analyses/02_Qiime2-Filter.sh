@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J Qiime2-Filter
 #SBATCH -t 48:00:00
-#SBATCH -n 24
+#SBATCH -n 1
 #SBATCH -N 1
 #SBATCH --mem=100g
 #SBATCH -o Qiime2.out
