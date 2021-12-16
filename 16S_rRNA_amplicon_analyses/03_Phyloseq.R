@@ -98,6 +98,10 @@ pdf("PCoA_Unifrac_f.pdf")
 p1 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
+pdf("PCoA_Unifrac_g.pdf")
+p1 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth), shape = Diet, color = factor(Depth)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diet") + scale_fill_manual(values = colors5, name="Depth (m)", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15))
+dev.off()
+
 
 PCoA2 <- ordinate(marmictrans, "PCoA", "bray")
 p2 <- plot_ordination(marmictrans, PCoA2)
@@ -126,6 +130,9 @@ pdf("PCoA_Bray_f.pdf")
 p2 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
+pdf("PCoA_Bray_g.pdf")
+p2 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth), shape = Diet, color = factor(Depth)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diet") + scale_fill_manual(values = colors5, name="Depth (m)", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15))
+dev.off()
 
 # Rarefy taxa for unweighted UniFrac
 marmicrf <- rarefy_even_depth(marmic, sample.size = min(sample_sums(marmic)), rngseed = TRUE, replace = TRUE, trimOTUs = TRUE, verbose = TRUE)
@@ -157,10 +164,8 @@ pdf("PCoA_uwUnifrac_f.pdf")
 p3 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
-
-# Alpha diversity
-pdf("Alpha_diversity.pdf")
-plot_richness(marmictrans, x="Genus", measures=c("Shannon", "Simpson")) + scale_fill_manual(values = colors, name="Group") + theme_bw() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Group)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, face = "italic"))
+pdf("PCoA_uwUnifrac_g.pdf")
+p3 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth), shape = Diet, color = factor(Depth)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diet") + scale_fill_manual(values = colors5, name="Depth (m)", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15))
 dev.off()
 
 # PERMANOVA
@@ -183,29 +188,29 @@ adonis(marmicbray ~ Depth, data = sampledf, add = "cailliez", permutations = 999
 adonis2(marmicbray ~ Genus + Diet + Migration + Depth, data = sampledf, add = "cailliez", permutations = 999, by = "margin")
 
 # Dispersion test
-beta2 <- betadisper(marmicuf, sampledf$Genus)
+beta1 <- betadisper(marmicuf, sampledf$Genus)
+permutest(beta1)
+
+beta2 <- betadisper(marmicuf, sampledf$Diet)
 permutest(beta2)
 
-beta3 <- betadisper(marmicuf, sampledf$Diet)
+beta3 <- betadisper(marmicuf, sampledf$Migration)
 permutest(beta3)
 
-beta4 <- betadisper(marmicuf, sampledf$Migration)
+beta4 <- betadisper(marmicuf, sampledf$Depth)
 permutest(beta4)
 
-beta5 <- betadisper(marmicuf, sampledf$Depth)
-permutest(beta5)
+beta1b <- betadisper(marmicbray, sampledf$Genus)
+permutest(beta1b)
 
-beta2b <- betadisper(marmicbray, sampledf$Genus)
+beta2b <- betadisper(marmicbray, sampledf$Diet)
 permutest(beta2b)
 
-beta3b <- betadisper(marmicbray, sampledf$Diet)
+beta3b <- betadisper(marmicbray, sampledf$Migration)
 permutest(beta3b)
 
-beta4b <- betadisper(marmicbray, sampledf$Migration)
+beta4b <- betadisper(marmicbray, sampledf$Depth)
 permutest(beta4b)
-
-beta5b <- betadisper(marmicbray, sampledf$Depth)
-permutest(beta5b)
 sink()
 
 # RDA
