@@ -54,10 +54,10 @@ MRfulltable(metaseqres1, number = 100, adjustMethod = "fdr", eff = 0.5, group = 
 # Older model functions for assessing impact of covariates - this was not possible with this dataset due to creation of NaNs in the analysis
 migration = pData(metaseqcss)$Migration
 group = pData(metaseqcss)$Group
-genus = pData(metaseqcss)$Genus
+species = pData(metaseqcss)$Species
 diet = pData(metaseqcss)$Diet
 depth = pData(metaseqcss)$Depth
-mod2 = model.matrix(~ migration + genus)
+mod2 = model.matrix(~ migration + species)
 settings = zigControl(maxit = 100, verbose = TRUE)
 metaseqres2 = fitZig(obj = metaseqcss, mod = mod2, useCSSoffset = TRUE, control = settings)
 MRcoefs(metaseqres2, number = 100, adjustMethod = "fdr", alpha = 0.1, eff = 0.5, group = 3, coef = 2, file = "MRcoefs_metaseqres2.txt")

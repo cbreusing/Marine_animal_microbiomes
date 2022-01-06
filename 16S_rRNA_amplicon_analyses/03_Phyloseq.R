@@ -60,8 +60,8 @@ dev.off()
 
 # Group
 colors <- c("Fish" = "cornflowerblue", "Isopod" = "pink1", "Krill" = "red1", "Polychaete" = "goldenrod1", "Shrimp" = "maroon4", "Squid" = "midnightblue", "Tunicate" = "cyan4")
-# Genus
-colors2 <- c("Acanthamunnopsis" = "mistyrose", "Cyclothone" = "lightblue1", "Munneurycope" = "pink2", "Poeobius" = "lightgoldenrod1", "Sergestes" = "maroon4", "Stenobrachius" = "royalblue1", "Thysanoessa" = "red1", "Tomopteris" = "darkgoldenrod1", "Vampyroteuthis" = "midnightblue", "Vitreosalpa" = "cyan4")
+# Species
+colors2 <- c("Acanthamunnopsis milleri" = "mistyrose", "Cyclothone atraria" = "lightblue1", "Cyclothone signata" = "lightsteelblue2", "Munneurycope murrayi" = "pink2", "Poeobius meseres" = "lightgoldenrod1", "Eusergestes similis" = "maroon4", "Stenobrachius leucopsarus" = "royalblue1", "Euphausia pacifica" = "red1", "Tomopteris sp." = "darkgoldenrod1", "Vampyroteuthis infernalis" = "midnightblue", "Vitreosalpa sp." = "cyan4")
 # Migration
 colors3 <- c("Yes" = "paleturquoise4", "No" = "palevioletred4", "Unknown" = "darkgrey")
 # Diet
@@ -79,11 +79,11 @@ p1 + scale_fill_manual(values = colors, name="Group") + theme_classic() + geom_p
 dev.off()
 
 pdf("PCoA_Unifrac_b.pdf")
-p1 + scale_fill_manual(values = colors2, name="Genus") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p1 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_Unifrac_c.pdf")
-p1 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+p1 + scale_fill_manual(values = colors3, name="Diel Vertical Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
 
 pdf("PCoA_Unifrac_d.pdf")
@@ -95,7 +95,7 @@ p1 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + g
 dev.off()
 
 pdf("PCoA_Unifrac_f.pdf")
-p1 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p1 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species), shape = Migration, color = factor(Species)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Vertical Migration") + scale_fill_manual(values = colors2, name="Species", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_Unifrac_g.pdf")
@@ -111,11 +111,11 @@ p2 + scale_fill_manual(values = colors, name="Group") + theme_classic() + geom_p
 dev.off()
 
 pdf("PCoA_Bray_b.pdf")
-p2 + scale_fill_manual(values = colors2, name="Genus") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p2 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_Bray_c.pdf")
-p2 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+p2 + scale_fill_manual(values = colors3, name="Diel Vertical Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
 
 pdf("PCoA_Bray_d.pdf")
@@ -127,7 +127,7 @@ p2 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + g
 dev.off()
 
 pdf("PCoA_Bray_f.pdf")
-p2 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p2 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species), shape = Migration, color = factor(Species)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Vertical Migration") + scale_fill_manual(values = colors2, name="Species", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_Bray_g.pdf")
@@ -145,11 +145,11 @@ p3 + scale_fill_manual(values = colors, name="Group") + theme_classic() + geom_p
 dev.off()
 
 pdf("PCoA_uwUnifrac_b.pdf")
-p3 + scale_fill_manual(values = colors2, name="Genus") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p3 + scale_fill_manual(values = colors2, name="Species") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_uwUnifrac_c.pdf")
-p3 + scale_fill_manual(values = colors3, name="Diel Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
+p3 + scale_fill_manual(values = colors3, name="Diel Vertical Migration") + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Migration)), shape=21, color="gray32", size=3) + theme(text = element_text(size = 15))
 dev.off()
 
 pdf("PCoA_uwUnifrac_d.pdf")
@@ -161,34 +161,33 @@ p3 + scale_fill_manual(values = colors5, name="Depth (m)") + theme_classic() + g
 dev.off()
 
 pdf("PCoA_uwUnifrac_f.pdf")
-p3 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Genus), shape = Migration, color = factor(Genus)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Migration") + scale_fill_manual(values = colors2, name="Genus", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
+p3 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Species), shape = Migration, color = factor(Species)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diel Vertical Migration") + scale_fill_manual(values = colors2, name="Species", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15)) + theme(legend.text = element_text(face = "italic"))
 dev.off()
 
 pdf("PCoA_uwUnifrac_g.pdf")
 p3 + theme_classic() + geom_point(position=position_jitter(width=0, height=0), aes(fill = factor(Depth), shape = Diet, color = factor(Depth)), size=3) + scale_shape_manual(values = c(19, 17, 15), name="Diet") + scale_fill_manual(values = colors5, name="Depth (m)", aesthetics = c("colour", "fill")) + theme(text = element_text(size = 15))
 dev.off()
 
-# PERMANOVA
+
+# Traditional PERMANOVA
 marmicuf <- UniFrac(marmictrans, weighted=TRUE)
 marmicbray <- distance(marmictrans, method = "bray")
 sampledf <- data.frame(sample_data(marmic))
 
 sink("PERMANOVA.txt")
 # Adonis test
-adonis(marmicuf ~ Genus, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicuf ~ Species, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicuf ~ Diet, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicuf ~ Migration, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicuf ~ Depth, data = sampledf, add = "cailliez", permutations = 999)
-adonis2(marmicuf ~ Genus + Diet + Migration + Depth, data = sampledf, add = "cailliez", permutations = 999, by = "margin")
 
-adonis(marmicbray ~ Genus, data = sampledf, add = "cailliez", permutations = 999)
+adonis(marmicbray ~ Species, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicbray ~ Diet, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicbray ~ Migration, data = sampledf, add = "cailliez", permutations = 999)
 adonis(marmicbray ~ Depth, data = sampledf, add = "cailliez", permutations = 999)
-adonis2(marmicbray ~ Genus + Diet + Migration + Depth, data = sampledf, add = "cailliez", permutations = 999, by = "margin")
 
 # Dispersion test
-beta1 <- betadisper(marmicuf, sampledf$Genus)
+beta1 <- betadisper(marmicuf, sampledf$Species)
 permutest(beta1)
 
 beta2 <- betadisper(marmicuf, sampledf$Diet)
@@ -200,7 +199,7 @@ permutest(beta3)
 beta4 <- betadisper(marmicuf, sampledf$Depth)
 permutest(beta4)
 
-beta1b <- betadisper(marmicbray, sampledf$Genus)
+beta1b <- betadisper(marmicbray, sampledf$Species)
 permutest(beta1b)
 
 beta2b <- betadisper(marmicbray, sampledf$Diet)
@@ -213,48 +212,3 @@ beta4b <- betadisper(marmicbray, sampledf$Depth)
 permutest(beta4b)
 sink()
 
-# RDA
-pred <- read.table("Smithsonian_RDA.txt", header=T)
-
-rda1 <- capscale(marmicbray ~ Host + Diet + Depth + Migration, data = pred, na.action = na.omit, add = "cailliez")
-rda2 <- capscale(marmicuf ~ Host + Diet + Depth + Migration, data = pred, na.action = na.omit, add = "cailliez")
-
-sink("RDA_model_results.txt")
-RsquareAdj(rda1)
-
-signif.full1 <- anova.cca(rda1, parallel=getOption("mc.cores"))
-signif.full1
-signif.axis1 <- anova.cca(rda1, by="axis", parallel=getOption("mc.cores"))
-signif.axis1
-signif.term1 <- anova.cca(rda1, by="term", parallel=getOption("mc.cores"))
-signif.term1
-signif.margin1 <- anova.cca(rda1, by="margin", parallel=getOption("mc.cores"))
-signif.margin1
-
-RsquareAdj(rda2)
-
-signif.full2 <- anova.cca(rda2, parallel=getOption("mc.cores"))
-signif.full2
-signif.axis2 <- anova.cca(rda2, by="axis", parallel=getOption("mc.cores"))
-signif.axis2
-signif.term2 <- anova.cca(rda2, by="term", parallel=getOption("mc.cores"))
-signif.term2
-signif.margin2 <- anova.cca(rda2, by="margin", parallel=getOption("mc.cores"))
-signif.margin2
-sink()
-
-levels(pred$Genus) <- c("Acanthamunnopsis", "Cyclothone", "Munneurycope", "Poeobius", "Sergestes", "Stenobrachius", "Thysanoessa", "Tomopteris", "Vampyroteuthis", "Vitreosalpa")
-
-pdf("Microbiome_RDA_Bray.pdf")
-plot(rda1, type="n", scaling=3)
-points(rda1, display="sites", pch=21, cex=1.3, col="gray32", scaling=3, bg=colors2[pred$Genus])
-text(rda1, scaling=3, display="bp", col="black", cex=1)
-legend("bottomright", legend=levels(pred$Genus), bty="n", col="gray32", pch=21, cex=1, pt.bg=colors2)
-dev.off()
-
-pdf("Microbiome_RDA_Unifrac.pdf")
-plot(rda2, type="n", scaling=3)
-points(rda2, display="sites", pch=21, cex=1.3, col="gray32", scaling=3, bg=colors2[pred$Genus])
-text(rda2, scaling=3, display="bp", col="black", cex=1)
-legend("bottomleft", legend=levels(pred$Genus), bty="n", col="gray32", pch=21, cex=1, pt.bg=colors2)
-dev.off()
