@@ -1,6 +1,6 @@
 library(ggplot2)
 
-setwd("/Users/Corinna/Documents/PostDoc/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/microbiome")
+setwd("/Users/Corinna/Documents/Work/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/microbiome")
 data <- read.table("differential_taxa.txt", header=T)
 
 col <- c("Migrator" = "paleturquoise4", "Non-Migrator" = "palevioletred4")

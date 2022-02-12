@@ -12,7 +12,7 @@ library(rbiom)
 library(viridis)
 library(psych)
 
-setwd("/Users/Corinna/Documents/PostDoc/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/microbiome")
+setwd("/Users/Corinna/Documents/Work/Beinart_Lab/Marine_animal_microbiomes_UCSD/16S_amplicons/microbiome")
 
 # Import final ASV biom and mapping files
 biomFile <- import_biom("zotu-table-microbiome_tax.biom", parseFunction = parse_taxonomy_default)
