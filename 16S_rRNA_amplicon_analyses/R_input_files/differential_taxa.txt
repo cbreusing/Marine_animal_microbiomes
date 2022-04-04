@@ -1,0 +1,87 @@
+Group	Family	Count
+Migrator	Actinomarinaceae	0
+Migrator	Alteromonadaceae	0
+Migrator	Arcobacteraceae	1
+Migrator	Bacteroidaceae	0
+Migrator	Cellvibrionaceae	1
+Migrator	Colwelliaceae	0
+Migrator	Cryomorphaceae	1
+Migrator	Erysipelotrichaceae	1
+Migrator	Flavobacteriaceae	6
+Migrator	Fokiniaceae	1
+Migrator	Francisellaceae	8
+Migrator	"Gammaproteobacteria Unknown Family"	0
+Migrator	Halieaceae	0
+Migrator	Halomonadaceae	0
+Migrator	Hyphomonadaceae	0
+Migrator	"JGI 0000069-P22 Unknown Family"	2
+Migrator	Kangiellaceae	0
+Migrator	Lachnospiraceae	0
+Migrator	Methylophagaceae	0
+Migrator	Morganellaceae	3
+Migrator	Muribaculaceae	0
+Migrator	Oleiphilaceae	1
+Migrator	"OM182 Clade"	0
+Migrator	Oscillospiraceae	0
+Migrator	Oxalobacteraceae	1
+Migrator	Peptococcaceae	0
+Migrator	Phycisphaeraceae	2
+Migrator	Pirellulaceae	1
+Migrator	Piscirickettsiaceae	1
+Migrator	Pseudohongiellaceae	0
+Migrator	Rhodobacteraceae	1
+Migrator	Rickettsiaceae	2
+Migrator	Ruminococcaceae	1
+Migrator	Saprospiraceae	1
+Migrator	"SAR11 Clade I"	0
+Migrator	"SAR116 Clade"	0
+Migrator	"SAR86 Clade"	0
+Migrator	Sedimenticolaceae	1
+Migrator	Shewanellaceae	0
+Migrator	Spirochaetaceae	1
+Migrator	Spongiibacteraceae	2
+Migrator	Thiotrichaceae	1
+Migrator	Vibrionaceae	3
+Non-Migrator	Actinomarinaceae	1
+Non-Migrator	Alteromonadaceae	1
+Non-Migrator	Arcobacteraceae	1
+Non-Migrator	Bacteroidaceae	2
+Non-Migrator	Cellvibrionaceae	0
+Non-Migrator	Colwelliaceae	4
+Non-Migrator	Cryomorphaceae	1
+Non-Migrator	Erysipelotrichaceae	1
+Non-Migrator	Flavobacteriaceae	2
+Non-Migrator	Fokiniaceae	0
+Non-Migrator	Francisellaceae	0
+Non-Migrator	"Gammaproteobacteria Unknown Family"	1
+Non-Migrator	Halieaceae	2
+Non-Migrator	Halomonadaceae	1
+Non-Migrator	Hyphomonadaceae	1
+Non-Migrator	"JGI 0000069-P22 Unknown Family"	0
+Non-Migrator	Kangiellaceae	1
+Non-Migrator	Lachnospiraceae	10
+Non-Migrator	Methylophagaceae	1
+Non-Migrator	Morganellaceae	0
+Non-Migrator	Muribaculaceae	9
+Non-Migrator	Oleiphilaceae	0
+Non-Migrator	"OM182 Clade"	2
+Non-Migrator	Oscillospiraceae	4
+Non-Migrator	Oxalobacteraceae	0
+Non-Migrator	Peptococcaceae	1
+Non-Migrator	Phycisphaeraceae	0
+Non-Migrator	Pirellulaceae	0
+Non-Migrator	Piscirickettsiaceae	0
+Non-Migrator	Pseudohongiellaceae	1
+Non-Migrator	Rhodobacteraceae	2
+Non-Migrator	Rickettsiaceae	0
+Non-Migrator	Ruminococcaceae	0
+Non-Migrator	Saprospiraceae	0
+Non-Migrator	"SAR11 Clade I"	1
+Non-Migrator	"SAR116 Clade"	3
+Non-Migrator	"SAR86 Clade"	1
+Non-Migrator	Sedimenticolaceae	0
+Non-Migrator	Shewanellaceae	2
+Non-Migrator	Spirochaetaceae	0
+Non-Migrator	Spongiibacteraceae	1
+Non-Migrator	Thiotrichaceae	0
+Non-Migrator	Vibrionaceae	0
