@@ -4,7 +4,7 @@ library(plyr)
 library(dplyr)
 
 # Extract lineage information from TaxIDs
-setwd("/Users/Corinna/Documents/PostDoc/Beinart_Lab/Marine_animal_microbiomes_UCSD/metagenomics/Acanthamunnopsis/eukaryotic_fraction") # Acanthamunnopsis, Cyclothone, Krill, Munneurycope, Myctophid, Poeobius, Sergestes
+setwd("/Users/Corinna/Documents/Work/Beinart_Lab/Marine_animal_microbiomes_UCSD/metagenomics/Acanthamunnopsis/eukaryotic_fraction") # Acanthamunnopsis, Cyclothone, Krill, Munneurycope, Myctophid, Poeobius, Sergestes
 
 Sys.setenv(ENTREZ_KEY = "063e59da58f82e1a608dc8e31789e4da8c09")
 
