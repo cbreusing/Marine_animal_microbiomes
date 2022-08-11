@@ -1,0 +1,689 @@
+Function	Family	Count
+"Phototrophy"	"Actinomarinaceae"	1
+"Phototrophy"	"Alteromonadaceae"	0
+"Phototrophy"	"Arcobacteraceae"	0
+"Phototrophy"	"Bacteroidaceae"	0
+"Phototrophy"	"Cellvibrionaceae"	0
+"Phototrophy"	"Colwelliaceae"	0
+"Phototrophy"	"Cryomorphaceae"	0
+"Phototrophy"	"Erysipelotrichaceae"	0
+"Phototrophy"	"Flavobacteriaceae"	0
+"Phototrophy"	"Fokiniaceae"	0
+"Phototrophy"	"Francisellaceae"	0
+"Phototrophy"	"Gammaproteobacteria Unknown Family"	0
+"Phototrophy"	"Halieaceae"	0
+"Phototrophy"	"Halomonadaceae"	0
+"Phototrophy"	"Hyphomonadaceae"	0
+"Phototrophy"	"JGI 0000069-P22 Unknown Family"	0
+"Phototrophy"	"Kangiellaceae"	0
+"Phototrophy"	"Lachnospiraceae"	0
+"Phototrophy"	"Methylophagaceae"	0
+"Phototrophy"	"Morganellaceae"	0
+"Phototrophy"	"Muribaculaceae"	0
+"Phototrophy"	"Oleiphilaceae"	0
+"Phototrophy"	"OM182 Clade"	0
+"Phototrophy"	"Oscillospiraceae"	0
+"Phototrophy"	"Oxalobacteraceae"	0
+"Phototrophy"	"Peptococcaceae"	0
+"Phototrophy"	"Phycisphaeraceae"	0
+"Phototrophy"	"Pirellulaceae"	0
+"Phototrophy"	"Piscirickettsiaceae"	0
+"Phototrophy"	"Pseudohongiellaceae"	0
+"Phototrophy"	"Rhodobacteraceae"	0
+"Phototrophy"	"Rickettsiaceae"	0
+"Phototrophy"	"Ruminococcaceae"	0
+"Phototrophy"	"Saprospiraceae"	0
+"Phototrophy"	"SAR11 Clade I"	0
+"Phototrophy"	"SAR116 Clade"	0
+"Phototrophy"	"SAR86 Clade"	0
+"Phototrophy"	"Sedimenticolaceae"	0
+"Phototrophy"	"Shewanellaceae"	0
+"Phototrophy"	"Spirochaetaceae"	0
+"Phototrophy"	"Spongiibacteraceae"	0
+"Phototrophy"	"Thiotrichaceae"	0
+"Phototrophy"	"Vibrionaceae"	0
+"Photoheterotrophy"	"Actinomarinaceae"	1
+"Photoheterotrophy"	"Alteromonadaceae"	0
+"Photoheterotrophy"	"Arcobacteraceae"	0
+"Photoheterotrophy"	"Bacteroidaceae"	0
+"Photoheterotrophy"	"Cellvibrionaceae"	0
+"Photoheterotrophy"	"Colwelliaceae"	0
+"Photoheterotrophy"	"Cryomorphaceae"	0
+"Photoheterotrophy"	"Erysipelotrichaceae"	0
+"Photoheterotrophy"	"Flavobacteriaceae"	0
+"Photoheterotrophy"	"Fokiniaceae"	0
+"Photoheterotrophy"	"Francisellaceae"	0
+"Photoheterotrophy"	"Gammaproteobacteria Unknown Family"	0
+"Photoheterotrophy"	"Halieaceae"	0
+"Photoheterotrophy"	"Halomonadaceae"	0
+"Photoheterotrophy"	"Hyphomonadaceae"	0
+"Photoheterotrophy"	"JGI 0000069-P22 Unknown Family"	0
+"Photoheterotrophy"	"Kangiellaceae"	0
+"Photoheterotrophy"	"Lachnospiraceae"	0
+"Photoheterotrophy"	"Methylophagaceae"	0
+"Photoheterotrophy"	"Morganellaceae"	0
+"Photoheterotrophy"	"Muribaculaceae"	0
+"Photoheterotrophy"	"Oleiphilaceae"	0
+"Photoheterotrophy"	"OM182 Clade"	0
+"Photoheterotrophy"	"Oscillospiraceae"	0
+"Photoheterotrophy"	"Oxalobacteraceae"	0
+"Photoheterotrophy"	"Peptococcaceae"	0
+"Photoheterotrophy"	"Phycisphaeraceae"	0
+"Photoheterotrophy"	"Pirellulaceae"	0
+"Photoheterotrophy"	"Piscirickettsiaceae"	0
+"Photoheterotrophy"	"Pseudohongiellaceae"	0
+"Photoheterotrophy"	"Rhodobacteraceae"	0
+"Photoheterotrophy"	"Rickettsiaceae"	0
+"Photoheterotrophy"	"Ruminococcaceae"	0
+"Photoheterotrophy"	"Saprospiraceae"	0
+"Photoheterotrophy"	"SAR11 Clade I"	0
+"Photoheterotrophy"	"SAR116 Clade"	0
+"Photoheterotrophy"	"SAR86 Clade"	0
+"Photoheterotrophy"	"Sedimenticolaceae"	0
+"Photoheterotrophy"	"Shewanellaceae"	0
+"Photoheterotrophy"	"Spirochaetaceae"	0
+"Photoheterotrophy"	"Spongiibacteraceae"	0
+"Photoheterotrophy"	"Thiotrichaceae"	0
+"Photoheterotrophy"	"Vibrionaceae"	0
+"Chemoheterotrophy"	"Actinomarinaceae"	0
+"Chemoheterotrophy"	"Alteromonadaceae"	1
+"Chemoheterotrophy"	"Arcobacteraceae"	0
+"Chemoheterotrophy"	"Bacteroidaceae"	2
+"Chemoheterotrophy"	"Cellvibrionaceae"	0
+"Chemoheterotrophy"	"Colwelliaceae"	1
+"Chemoheterotrophy"	"Cryomorphaceae"	0
+"Chemoheterotrophy"	"Erysipelotrichaceae"	1
+"Chemoheterotrophy"	"Flavobacteriaceae"	2
+"Chemoheterotrophy"	"Fokiniaceae"	0
+"Chemoheterotrophy"	"Francisellaceae"	0
+"Chemoheterotrophy"	"Gammaproteobacteria Unknown Family"	1
+"Chemoheterotrophy"	"Halieaceae"	2
+"Chemoheterotrophy"	"Halomonadaceae"	1
+"Chemoheterotrophy"	"Hyphomonadaceae"	0
+"Chemoheterotrophy"	"JGI 0000069-P22 Unknown Family"	0
+"Chemoheterotrophy"	"Kangiellaceae"	0
+"Chemoheterotrophy"	"Lachnospiraceae"	10
+"Chemoheterotrophy"	"Methylophagaceae"	1
+"Chemoheterotrophy"	"Morganellaceae"	0
+"Chemoheterotrophy"	"Muribaculaceae"	9
+"Chemoheterotrophy"	"Oleiphilaceae"	1
+"Chemoheterotrophy"	"OM182 Clade"	0
+"Chemoheterotrophy"	"Oscillospiraceae"	0
+"Chemoheterotrophy"	"Oxalobacteraceae"	0
+"Chemoheterotrophy"	"Peptococcaceae"	0
+"Chemoheterotrophy"	"Phycisphaeraceae"	0
+"Chemoheterotrophy"	"Pirellulaceae"	0
+"Chemoheterotrophy"	"Piscirickettsiaceae"	0
+"Chemoheterotrophy"	"Pseudohongiellaceae"	0
+"Chemoheterotrophy"	"Rhodobacteraceae"	0
+"Chemoheterotrophy"	"Rickettsiaceae"	0
+"Chemoheterotrophy"	"Ruminococcaceae"	1
+"Chemoheterotrophy"	"Saprospiraceae"	1
+"Chemoheterotrophy"	"SAR11 Clade I"	1
+"Chemoheterotrophy"	"SAR116 Clade"	3
+"Chemoheterotrophy"	"SAR86 Clade"	1
+"Chemoheterotrophy"	"Sedimenticolaceae"	0
+"Chemoheterotrophy"	"Shewanellaceae"	1
+"Chemoheterotrophy"	"Spirochaetaceae"	0
+"Chemoheterotrophy"	"Spongiibacteraceae"	3
+"Chemoheterotrophy"	"Thiotrichaceae"	0
+"Chemoheterotrophy"	"Vibrionaceae"	3
+"Aerobic Chemoheterotrophy"	"Actinomarinaceae"	0
+"Aerobic Chemoheterotrophy"	"Alteromonadaceae"	1
+"Aerobic Chemoheterotrophy"	"Arcobacteraceae"	0
+"Aerobic Chemoheterotrophy"	"Bacteroidaceae"	0
+"Aerobic Chemoheterotrophy"	"Cellvibrionaceae"	0
+"Aerobic Chemoheterotrophy"	"Colwelliaceae"	0
+"Aerobic Chemoheterotrophy"	"Cryomorphaceae"	0
+"Aerobic Chemoheterotrophy"	"Erysipelotrichaceae"	0
+"Aerobic Chemoheterotrophy"	"Flavobacteriaceae"	0
+"Aerobic Chemoheterotrophy"	"Fokiniaceae"	0
+"Aerobic Chemoheterotrophy"	"Francisellaceae"	0
+"Aerobic Chemoheterotrophy"	"Gammaproteobacteria Unknown Family"	1
+"Aerobic Chemoheterotrophy"	"Halieaceae"	2
+"Aerobic Chemoheterotrophy"	"Halomonadaceae"	0
+"Aerobic Chemoheterotrophy"	"Hyphomonadaceae"	0
+"Aerobic Chemoheterotrophy"	"JGI 0000069-P22 Unknown Family"	0
+"Aerobic Chemoheterotrophy"	"Kangiellaceae"	0
+"Aerobic Chemoheterotrophy"	"Lachnospiraceae"	0
+"Aerobic Chemoheterotrophy"	"Methylophagaceae"	0
+"Aerobic Chemoheterotrophy"	"Morganellaceae"	0
+"Aerobic Chemoheterotrophy"	"Muribaculaceae"	0
+"Aerobic Chemoheterotrophy"	"Oleiphilaceae"	0
+"Aerobic Chemoheterotrophy"	"OM182 Clade"	0
+"Aerobic Chemoheterotrophy"	"Oscillospiraceae"	0
+"Aerobic Chemoheterotrophy"	"Oxalobacteraceae"	0
+"Aerobic Chemoheterotrophy"	"Peptococcaceae"	0
+"Aerobic Chemoheterotrophy"	"Phycisphaeraceae"	0
+"Aerobic Chemoheterotrophy"	"Pirellulaceae"	0
+"Aerobic Chemoheterotrophy"	"Piscirickettsiaceae"	0
+"Aerobic Chemoheterotrophy"	"Pseudohongiellaceae"	0
+"Aerobic Chemoheterotrophy"	"Rhodobacteraceae"	0
+"Aerobic Chemoheterotrophy"	"Rickettsiaceae"	0
+"Aerobic Chemoheterotrophy"	"Ruminococcaceae"	0
+"Aerobic Chemoheterotrophy"	"Saprospiraceae"	1
+"Aerobic Chemoheterotrophy"	"SAR11 Clade I"	1
+"Aerobic Chemoheterotrophy"	"SAR116 Clade"	0
+"Aerobic Chemoheterotrophy"	"SAR86 Clade"	1
+"Aerobic Chemoheterotrophy"	"Sedimenticolaceae"	0
+"Aerobic Chemoheterotrophy"	"Shewanellaceae"	1
+"Aerobic Chemoheterotrophy"	"Spirochaetaceae"	0
+"Aerobic Chemoheterotrophy"	"Spongiibacteraceae"	3
+"Aerobic Chemoheterotrophy"	"Thiotrichaceae"	0
+"Aerobic Chemoheterotrophy"	"Vibrionaceae"	3
+"Fermentation"	"Actinomarinaceae"	0
+"Fermentation"	"Alteromonadaceae"	0
+"Fermentation"	"Arcobacteraceae"	0
+"Fermentation"	"Bacteroidaceae"	2
+"Fermentation"	"Cellvibrionaceae"	0
+"Fermentation"	"Colwelliaceae"	1
+"Fermentation"	"Cryomorphaceae"	0
+"Fermentation"	"Erysipelotrichaceae"	1
+"Fermentation"	"Flavobacteriaceae"	0
+"Fermentation"	"Fokiniaceae"	0
+"Fermentation"	"Francisellaceae"	0
+"Fermentation"	"Gammaproteobacteria Unknown Family"	0
+"Fermentation"	"Halieaceae"	0
+"Fermentation"	"Halomonadaceae"	0
+"Fermentation"	"Hyphomonadaceae"	0
+"Fermentation"	"JGI 0000069-P22 Unknown Family"	0
+"Fermentation"	"Kangiellaceae"	0
+"Fermentation"	"Lachnospiraceae"	10
+"Fermentation"	"Methylophagaceae"	0
+"Fermentation"	"Morganellaceae"	0
+"Fermentation"	"Muribaculaceae"	0
+"Fermentation"	"Oleiphilaceae"	0
+"Fermentation"	"OM182 Clade"	0
+"Fermentation"	"Oscillospiraceae"	0
+"Fermentation"	"Oxalobacteraceae"	0
+"Fermentation"	"Peptococcaceae"	0
+"Fermentation"	"Phycisphaeraceae"	0
+"Fermentation"	"Pirellulaceae"	0
+"Fermentation"	"Piscirickettsiaceae"	0
+"Fermentation"	"Pseudohongiellaceae"	0
+"Fermentation"	"Rhodobacteraceae"	0
+"Fermentation"	"Rickettsiaceae"	0
+"Fermentation"	"Ruminococcaceae"	1
+"Fermentation"	"Saprospiraceae"	0
+"Fermentation"	"SAR11 Clade I"	0
+"Fermentation"	"SAR116 Clade"	0
+"Fermentation"	"SAR86 Clade"	0
+"Fermentation"	"Sedimenticolaceae"	0
+"Fermentation"	"Shewanellaceae"	0
+"Fermentation"	"Spirochaetaceae"	0
+"Fermentation"	"Spongiibacteraceae"	0
+"Fermentation"	"Thiotrichaceae"	0
+"Fermentation"	"Vibrionaceae"	3
+"Chitinolysis"	"Actinomarinaceae"	0
+"Chitinolysis"	"Alteromonadaceae"	0
+"Chitinolysis"	"Arcobacteraceae"	0
+"Chitinolysis"	"Bacteroidaceae"	0
+"Chitinolysis"	"Cellvibrionaceae"	0
+"Chitinolysis"	"Colwelliaceae"	0
+"Chitinolysis"	"Cryomorphaceae"	0
+"Chitinolysis"	"Erysipelotrichaceae"	0
+"Chitinolysis"	"Flavobacteriaceae"	0
+"Chitinolysis"	"Fokiniaceae"	0
+"Chitinolysis"	"Francisellaceae"	0
+"Chitinolysis"	"Gammaproteobacteria Unknown Family"	0
+"Chitinolysis"	"Halieaceae"	0
+"Chitinolysis"	"Halomonadaceae"	0
+"Chitinolysis"	"Hyphomonadaceae"	0
+"Chitinolysis"	"JGI 0000069-P22 Unknown Family"	0
+"Chitinolysis"	"Kangiellaceae"	0
+"Chitinolysis"	"Lachnospiraceae"	0
+"Chitinolysis"	"Methylophagaceae"	0
+"Chitinolysis"	"Morganellaceae"	0
+"Chitinolysis"	"Muribaculaceae"	0
+"Chitinolysis"	"Oleiphilaceae"	0
+"Chitinolysis"	"OM182 Clade"	0
+"Chitinolysis"	"Oscillospiraceae"	0
+"Chitinolysis"	"Oxalobacteraceae"	0
+"Chitinolysis"	"Peptococcaceae"	0
+"Chitinolysis"	"Phycisphaeraceae"	0
+"Chitinolysis"	"Pirellulaceae"	0
+"Chitinolysis"	"Piscirickettsiaceae"	0
+"Chitinolysis"	"Pseudohongiellaceae"	0
+"Chitinolysis"	"Rhodobacteraceae"	0
+"Chitinolysis"	"Rickettsiaceae"	0
+"Chitinolysis"	"Ruminococcaceae"	0
+"Chitinolysis"	"Saprospiraceae"	0
+"Chitinolysis"	"SAR11 Clade I"	0
+"Chitinolysis"	"SAR116 Clade"	0
+"Chitinolysis"	"SAR86 Clade"	0
+"Chitinolysis"	"Sedimenticolaceae"	0
+"Chitinolysis"	"Shewanellaceae"	0
+"Chitinolysis"	"Spirochaetaceae"	0
+"Chitinolysis"	"Spongiibacteraceae"	0
+"Chitinolysis"	"Thiotrichaceae"	0
+"Chitinolysis"	"Vibrionaceae"	3
+"Hydrocarbon Degradation"	"Actinomarinaceae"	0
+"Hydrocarbon Degradation"	"Alteromonadaceae"	0
+"Hydrocarbon Degradation"	"Arcobacteraceae"	0
+"Hydrocarbon Degradation"	"Bacteroidaceae"	0
+"Hydrocarbon Degradation"	"Cellvibrionaceae"	0
+"Hydrocarbon Degradation"	"Colwelliaceae"	0
+"Hydrocarbon Degradation"	"Cryomorphaceae"	0
+"Hydrocarbon Degradation"	"Erysipelotrichaceae"	0
+"Hydrocarbon Degradation"	"Flavobacteriaceae"	0
+"Hydrocarbon Degradation"	"Fokiniaceae"	0
+"Hydrocarbon Degradation"	"Francisellaceae"	0
+"Hydrocarbon Degradation"	"Gammaproteobacteria Unknown Family"	0
+"Hydrocarbon Degradation"	"Halieaceae"	0
+"Hydrocarbon Degradation"	"Halomonadaceae"	1
+"Hydrocarbon Degradation"	"Hyphomonadaceae"	0
+"Hydrocarbon Degradation"	"JGI 0000069-P22 Unknown Family"	0
+"Hydrocarbon Degradation"	"Kangiellaceae"	0
+"Hydrocarbon Degradation"	"Lachnospiraceae"	0
+"Hydrocarbon Degradation"	"Methylophagaceae"	0
+"Hydrocarbon Degradation"	"Morganellaceae"	0
+"Hydrocarbon Degradation"	"Muribaculaceae"	0
+"Hydrocarbon Degradation"	"Oleiphilaceae"	1
+"Hydrocarbon Degradation"	"OM182 Clade"	0
+"Hydrocarbon Degradation"	"Oscillospiraceae"	0
+"Hydrocarbon Degradation"	"Oxalobacteraceae"	0
+"Hydrocarbon Degradation"	"Peptococcaceae"	0
+"Hydrocarbon Degradation"	"Phycisphaeraceae"	0
+"Hydrocarbon Degradation"	"Pirellulaceae"	0
+"Hydrocarbon Degradation"	"Piscirickettsiaceae"	0
+"Hydrocarbon Degradation"	"Pseudohongiellaceae"	0
+"Hydrocarbon Degradation"	"Rhodobacteraceae"	0
+"Hydrocarbon Degradation"	"Rickettsiaceae"	0
+"Hydrocarbon Degradation"	"Ruminococcaceae"	0
+"Hydrocarbon Degradation"	"Saprospiraceae"	0
+"Hydrocarbon Degradation"	"SAR11 Clade I"	0
+"Hydrocarbon Degradation"	"SAR116 Clade"	0
+"Hydrocarbon Degradation"	"SAR86 Clade"	0
+"Hydrocarbon Degradation"	"Sedimenticolaceae"	0
+"Hydrocarbon Degradation"	"Shewanellaceae"	0
+"Hydrocarbon Degradation"	"Spirochaetaceae"	0
+"Hydrocarbon Degradation"	"Spongiibacteraceae"	0
+"Hydrocarbon Degradation"	"Thiotrichaceae"	0
+"Hydrocarbon Degradation"	"Vibrionaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Actinomarinaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Alteromonadaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Arcobacteraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Bacteroidaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Cellvibrionaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Colwelliaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Cryomorphaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Erysipelotrichaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Flavobacteriaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Fokiniaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Francisellaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Gammaproteobacteria Unknown Family"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Halieaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Halomonadaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Hyphomonadaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"JGI 0000069-P22 Unknown Family"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Kangiellaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Lachnospiraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Methylophagaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Morganellaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Muribaculaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Oleiphilaceae"	1
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"OM182 Clade"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Oscillospiraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Oxalobacteraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Peptococcaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Phycisphaeraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Pirellulaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Piscirickettsiaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Pseudohongiellaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Rhodobacteraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Rickettsiaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Ruminococcaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Saprospiraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"SAR11 Clade I"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"SAR116 Clade"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"SAR86 Clade"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Sedimenticolaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Shewanellaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Spirochaetaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Spongiibacteraceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Thiotrichaceae"	0
+"Aliphatic Non-Methane Hydrocarbon Degradation"	"Vibrionaceae"	0
+"Methylotrophy"	"Actinomarinaceae"	0
+"Methylotrophy"	"Alteromonadaceae"	0
+"Methylotrophy"	"Arcobacteraceae"	0
+"Methylotrophy"	"Bacteroidaceae"	0
+"Methylotrophy"	"Cellvibrionaceae"	0
+"Methylotrophy"	"Colwelliaceae"	0
+"Methylotrophy"	"Cryomorphaceae"	0
+"Methylotrophy"	"Erysipelotrichaceae"	0
+"Methylotrophy"	"Flavobacteriaceae"	0
+"Methylotrophy"	"Fokiniaceae"	0
+"Methylotrophy"	"Francisellaceae"	0
+"Methylotrophy"	"Gammaproteobacteria Unknown Family"	0
+"Methylotrophy"	"Halieaceae"	0
+"Methylotrophy"	"Halomonadaceae"	0
+"Methylotrophy"	"Hyphomonadaceae"	0
+"Methylotrophy"	"JGI 0000069-P22 Unknown Family"	0
+"Methylotrophy"	"Kangiellaceae"	0
+"Methylotrophy"	"Lachnospiraceae"	0
+"Methylotrophy"	"Methylophagaceae"	1
+"Methylotrophy"	"Morganellaceae"	0
+"Methylotrophy"	"Muribaculaceae"	0
+"Methylotrophy"	"Oleiphilaceae"	0
+"Methylotrophy"	"OM182 Clade"	0
+"Methylotrophy"	"Oscillospiraceae"	0
+"Methylotrophy"	"Oxalobacteraceae"	0
+"Methylotrophy"	"Peptococcaceae"	0
+"Methylotrophy"	"Phycisphaeraceae"	0
+"Methylotrophy"	"Pirellulaceae"	0
+"Methylotrophy"	"Piscirickettsiaceae"	0
+"Methylotrophy"	"Pseudohongiellaceae"	0
+"Methylotrophy"	"Rhodobacteraceae"	0
+"Methylotrophy"	"Rickettsiaceae"	0
+"Methylotrophy"	"Ruminococcaceae"	0
+"Methylotrophy"	"Saprospiraceae"	0
+"Methylotrophy"	"SAR11 Clade I"	0
+"Methylotrophy"	"SAR116 Clade"	0
+"Methylotrophy"	"SAR86 Clade"	0
+"Methylotrophy"	"Sedimenticolaceae"	0
+"Methylotrophy"	"Shewanellaceae"	0
+"Methylotrophy"	"Spirochaetaceae"	0
+"Methylotrophy"	"Spongiibacteraceae"	0
+"Methylotrophy"	"Thiotrichaceae"	0
+"Methylotrophy"	"Vibrionaceae"	0
+"Methanol Oxidation"	"Actinomarinaceae"	0
+"Methanol Oxidation"	"Alteromonadaceae"	0
+"Methanol Oxidation"	"Arcobacteraceae"	0
+"Methanol Oxidation"	"Bacteroidaceae"	0
+"Methanol Oxidation"	"Cellvibrionaceae"	0
+"Methanol Oxidation"	"Colwelliaceae"	0
+"Methanol Oxidation"	"Cryomorphaceae"	0
+"Methanol Oxidation"	"Erysipelotrichaceae"	0
+"Methanol Oxidation"	"Flavobacteriaceae"	0
+"Methanol Oxidation"	"Fokiniaceae"	0
+"Methanol Oxidation"	"Francisellaceae"	0
+"Methanol Oxidation"	"Gammaproteobacteria Unknown Family"	0
+"Methanol Oxidation"	"Halieaceae"	0
+"Methanol Oxidation"	"Halomonadaceae"	0
+"Methanol Oxidation"	"Hyphomonadaceae"	0
+"Methanol Oxidation"	"JGI 0000069-P22 Unknown Family"	0
+"Methanol Oxidation"	"Kangiellaceae"	0
+"Methanol Oxidation"	"Lachnospiraceae"	0
+"Methanol Oxidation"	"Methylophagaceae"	1
+"Methanol Oxidation"	"Morganellaceae"	0
+"Methanol Oxidation"	"Muribaculaceae"	0
+"Methanol Oxidation"	"Oleiphilaceae"	0
+"Methanol Oxidation"	"OM182 Clade"	0
+"Methanol Oxidation"	"Oscillospiraceae"	0
+"Methanol Oxidation"	"Oxalobacteraceae"	0
+"Methanol Oxidation"	"Peptococcaceae"	0
+"Methanol Oxidation"	"Phycisphaeraceae"	0
+"Methanol Oxidation"	"Pirellulaceae"	0
+"Methanol Oxidation"	"Piscirickettsiaceae"	0
+"Methanol Oxidation"	"Pseudohongiellaceae"	0
+"Methanol Oxidation"	"Rhodobacteraceae"	0
+"Methanol Oxidation"	"Rickettsiaceae"	0
+"Methanol Oxidation"	"Ruminococcaceae"	0
+"Methanol Oxidation"	"Saprospiraceae"	0
+"Methanol Oxidation"	"SAR11 Clade I"	0
+"Methanol Oxidation"	"SAR116 Clade"	0
+"Methanol Oxidation"	"SAR86 Clade"	0
+"Methanol Oxidation"	"Sedimenticolaceae"	0
+"Methanol Oxidation"	"Shewanellaceae"	0
+"Methanol Oxidation"	"Spirochaetaceae"	0
+"Methanol Oxidation"	"Spongiibacteraceae"	0
+"Methanol Oxidation"	"Thiotrichaceae"	0
+"Methanol Oxidation"	"Vibrionaceae"	0
+"Nitrogen Respiration"	"Actinomarinaceae"	0
+"Nitrogen Respiration"	"Alteromonadaceae"	0
+"Nitrogen Respiration"	"Arcobacteraceae"	0
+"Nitrogen Respiration"	"Bacteroidaceae"	0
+"Nitrogen Respiration"	"Cellvibrionaceae"	0
+"Nitrogen Respiration"	"Colwelliaceae"	0
+"Nitrogen Respiration"	"Cryomorphaceae"	0
+"Nitrogen Respiration"	"Erysipelotrichaceae"	0
+"Nitrogen Respiration"	"Flavobacteriaceae"	0
+"Nitrogen Respiration"	"Fokiniaceae"	0
+"Nitrogen Respiration"	"Francisellaceae"	0
+"Nitrogen Respiration"	"Gammaproteobacteria Unknown Family"	0
+"Nitrogen Respiration"	"Halieaceae"	0
+"Nitrogen Respiration"	"Halomonadaceae"	0
+"Nitrogen Respiration"	"Hyphomonadaceae"	0
+"Nitrogen Respiration"	"JGI 0000069-P22 Unknown Family"	0
+"Nitrogen Respiration"	"Kangiellaceae"	0
+"Nitrogen Respiration"	"Lachnospiraceae"	0
+"Nitrogen Respiration"	"Methylophagaceae"	0
+"Nitrogen Respiration"	"Morganellaceae"	0
+"Nitrogen Respiration"	"Muribaculaceae"	0
+"Nitrogen Respiration"	"Oleiphilaceae"	0
+"Nitrogen Respiration"	"OM182 Clade"	0
+"Nitrogen Respiration"	"Oscillospiraceae"	0
+"Nitrogen Respiration"	"Oxalobacteraceae"	0
+"Nitrogen Respiration"	"Peptococcaceae"	0
+"Nitrogen Respiration"	"Phycisphaeraceae"	0
+"Nitrogen Respiration"	"Pirellulaceae"	0
+"Nitrogen Respiration"	"Piscirickettsiaceae"	0
+"Nitrogen Respiration"	"Pseudohongiellaceae"	0
+"Nitrogen Respiration"	"Rhodobacteraceae"	0
+"Nitrogen Respiration"	"Rickettsiaceae"	0
+"Nitrogen Respiration"	"Ruminococcaceae"	0
+"Nitrogen Respiration"	"Saprospiraceae"	0
+"Nitrogen Respiration"	"SAR11 Clade I"	0
+"Nitrogen Respiration"	"SAR116 Clade"	0
+"Nitrogen Respiration"	"SAR86 Clade"	0
+"Nitrogen Respiration"	"Sedimenticolaceae"	0
+"Nitrogen Respiration"	"Shewanellaceae"	1
+"Nitrogen Respiration"	"Spirochaetaceae"	0
+"Nitrogen Respiration"	"Spongiibacteraceae"	0
+"Nitrogen Respiration"	"Thiotrichaceae"	0
+"Nitrogen Respiration"	"Vibrionaceae"	0
+"Nitrate Respiration"	"Actinomarinaceae"	0
+"Nitrate Respiration"	"Alteromonadaceae"	0
+"Nitrate Respiration"	"Arcobacteraceae"	0
+"Nitrate Respiration"	"Bacteroidaceae"	0
+"Nitrate Respiration"	"Cellvibrionaceae"	0
+"Nitrate Respiration"	"Colwelliaceae"	0
+"Nitrate Respiration"	"Cryomorphaceae"	0
+"Nitrate Respiration"	"Erysipelotrichaceae"	0
+"Nitrate Respiration"	"Flavobacteriaceae"	0
+"Nitrate Respiration"	"Fokiniaceae"	0
+"Nitrate Respiration"	"Francisellaceae"	0
+"Nitrate Respiration"	"Gammaproteobacteria Unknown Family"	0
+"Nitrate Respiration"	"Halieaceae"	0
+"Nitrate Respiration"	"Halomonadaceae"	0
+"Nitrate Respiration"	"Hyphomonadaceae"	0
+"Nitrate Respiration"	"JGI 0000069-P22 Unknown Family"	0
+"Nitrate Respiration"	"Kangiellaceae"	0
+"Nitrate Respiration"	"Lachnospiraceae"	0
+"Nitrate Respiration"	"Methylophagaceae"	0
+"Nitrate Respiration"	"Morganellaceae"	0
+"Nitrate Respiration"	"Muribaculaceae"	0
+"Nitrate Respiration"	"Oleiphilaceae"	0
+"Nitrate Respiration"	"OM182 Clade"	0
+"Nitrate Respiration"	"Oscillospiraceae"	0
+"Nitrate Respiration"	"Oxalobacteraceae"	0
+"Nitrate Respiration"	"Peptococcaceae"	0
+"Nitrate Respiration"	"Phycisphaeraceae"	0
+"Nitrate Respiration"	"Pirellulaceae"	0
+"Nitrate Respiration"	"Piscirickettsiaceae"	0
+"Nitrate Respiration"	"Pseudohongiellaceae"	0
+"Nitrate Respiration"	"Rhodobacteraceae"	0
+"Nitrate Respiration"	"Rickettsiaceae"	0
+"Nitrate Respiration"	"Ruminococcaceae"	0
+"Nitrate Respiration"	"Saprospiraceae"	0
+"Nitrate Respiration"	"SAR11 Clade I"	0
+"Nitrate Respiration"	"SAR116 Clade"	0
+"Nitrate Respiration"	"SAR86 Clade"	0
+"Nitrate Respiration"	"Sedimenticolaceae"	0
+"Nitrate Respiration"	"Shewanellaceae"	1
+"Nitrate Respiration"	"Spirochaetaceae"	0
+"Nitrate Respiration"	"Spongiibacteraceae"	0
+"Nitrate Respiration"	"Thiotrichaceae"	0
+"Nitrate Respiration"	"Vibrionaceae"	0
+"Nitrate Reduction"	"Actinomarinaceae"	0
+"Nitrate Reduction"	"Alteromonadaceae"	0
+"Nitrate Reduction"	"Arcobacteraceae"	0
+"Nitrate Reduction"	"Bacteroidaceae"	0
+"Nitrate Reduction"	"Cellvibrionaceae"	0
+"Nitrate Reduction"	"Colwelliaceae"	1
+"Nitrate Reduction"	"Cryomorphaceae"	0
+"Nitrate Reduction"	"Erysipelotrichaceae"	0
+"Nitrate Reduction"	"Flavobacteriaceae"	0
+"Nitrate Reduction"	"Fokiniaceae"	0
+"Nitrate Reduction"	"Francisellaceae"	0
+"Nitrate Reduction"	"Gammaproteobacteria Unknown Family"	0
+"Nitrate Reduction"	"Halieaceae"	0
+"Nitrate Reduction"	"Halomonadaceae"	0
+"Nitrate Reduction"	"Hyphomonadaceae"	0
+"Nitrate Reduction"	"JGI 0000069-P22 Unknown Family"	0
+"Nitrate Reduction"	"Kangiellaceae"	0
+"Nitrate Reduction"	"Lachnospiraceae"	0
+"Nitrate Reduction"	"Methylophagaceae"	0
+"Nitrate Reduction"	"Morganellaceae"	0
+"Nitrate Reduction"	"Muribaculaceae"	0
+"Nitrate Reduction"	"Oleiphilaceae"	0
+"Nitrate Reduction"	"OM182 Clade"	0
+"Nitrate Reduction"	"Oscillospiraceae"	0
+"Nitrate Reduction"	"Oxalobacteraceae"	0
+"Nitrate Reduction"	"Peptococcaceae"	0
+"Nitrate Reduction"	"Phycisphaeraceae"	0
+"Nitrate Reduction"	"Pirellulaceae"	0
+"Nitrate Reduction"	"Piscirickettsiaceae"	0
+"Nitrate Reduction"	"Pseudohongiellaceae"	0
+"Nitrate Reduction"	"Rhodobacteraceae"	0
+"Nitrate Reduction"	"Rickettsiaceae"	0
+"Nitrate Reduction"	"Ruminococcaceae"	0
+"Nitrate Reduction"	"Saprospiraceae"	0
+"Nitrate Reduction"	"SAR11 Clade I"	0
+"Nitrate Reduction"	"SAR116 Clade"	0
+"Nitrate Reduction"	"SAR86 Clade"	0
+"Nitrate Reduction"	"Sedimenticolaceae"	0
+"Nitrate Reduction"	"Shewanellaceae"	1
+"Nitrate Reduction"	"Spirochaetaceae"	0
+"Nitrate Reduction"	"Spongiibacteraceae"	0
+"Nitrate Reduction"	"Thiotrichaceae"	0
+"Nitrate Reduction"	"Vibrionaceae"	0
+"Animal Parasites or Symbionts"	"Actinomarinaceae"	0
+"Animal Parasites or Symbionts"	"Alteromonadaceae"	0
+"Animal Parasites or Symbionts"	"Arcobacteraceae"	0
+"Animal Parasites or Symbionts"	"Bacteroidaceae"	0
+"Animal Parasites or Symbionts"	"Cellvibrionaceae"	0
+"Animal Parasites or Symbionts"	"Colwelliaceae"	0
+"Animal Parasites or Symbionts"	"Cryomorphaceae"	0
+"Animal Parasites or Symbionts"	"Erysipelotrichaceae"	0
+"Animal Parasites or Symbionts"	"Flavobacteriaceae"	0
+"Animal Parasites or Symbionts"	"Fokiniaceae"	0
+"Animal Parasites or Symbionts"	"Francisellaceae"	8
+"Animal Parasites or Symbionts"	"Gammaproteobacteria Unknown Family"	0
+"Animal Parasites or Symbionts"	"Halieaceae"	0
+"Animal Parasites or Symbionts"	"Halomonadaceae"	0
+"Animal Parasites or Symbionts"	"Hyphomonadaceae"	0
+"Animal Parasites or Symbionts"	"JGI 0000069-P22 Unknown Family"	0
+"Animal Parasites or Symbionts"	"Kangiellaceae"	0
+"Animal Parasites or Symbionts"	"Lachnospiraceae"	1
+"Animal Parasites or Symbionts"	"Methylophagaceae"	0
+"Animal Parasites or Symbionts"	"Morganellaceae"	0
+"Animal Parasites or Symbionts"	"Muribaculaceae"	0
+"Animal Parasites or Symbionts"	"Oleiphilaceae"	0
+"Animal Parasites or Symbionts"	"OM182 Clade"	0
+"Animal Parasites or Symbionts"	"Oscillospiraceae"	0
+"Animal Parasites or Symbionts"	"Oxalobacteraceae"	0
+"Animal Parasites or Symbionts"	"Peptococcaceae"	0
+"Animal Parasites or Symbionts"	"Phycisphaeraceae"	0
+"Animal Parasites or Symbionts"	"Pirellulaceae"	0
+"Animal Parasites or Symbionts"	"Piscirickettsiaceae"	0
+"Animal Parasites or Symbionts"	"Pseudohongiellaceae"	0
+"Animal Parasites or Symbionts"	"Rhodobacteraceae"	0
+"Animal Parasites or Symbionts"	"Rickettsiaceae"	0
+"Animal Parasites or Symbionts"	"Ruminococcaceae"	1
+"Animal Parasites or Symbionts"	"Saprospiraceae"	0
+"Animal Parasites or Symbionts"	"SAR11 Clade I"	0
+"Animal Parasites or Symbionts"	"SAR116 Clade"	0
+"Animal Parasites or Symbionts"	"SAR86 Clade"	0
+"Animal Parasites or Symbionts"	"Sedimenticolaceae"	0
+"Animal Parasites or Symbionts"	"Shewanellaceae"	0
+"Animal Parasites or Symbionts"	"Spirochaetaceae"	0
+"Animal Parasites or Symbionts"	"Spongiibacteraceae"	0
+"Animal Parasites or Symbionts"	"Thiotrichaceae"	0
+"Animal Parasites or Symbionts"	"Vibrionaceae"	0
+"Intracellular Parasites"	"Actinomarinaceae"	0
+"Intracellular Parasites"	"Alteromonadaceae"	0
+"Intracellular Parasites"	"Arcobacteraceae"	0
+"Intracellular Parasites"	"Bacteroidaceae"	0
+"Intracellular Parasites"	"Cellvibrionaceae"	0
+"Intracellular Parasites"	"Colwelliaceae"	0
+"Intracellular Parasites"	"Cryomorphaceae"	0
+"Intracellular Parasites"	"Erysipelotrichaceae"	0
+"Intracellular Parasites"	"Flavobacteriaceae"	0
+"Intracellular Parasites"	"Fokiniaceae"	1
+"Intracellular Parasites"	"Francisellaceae"	0
+"Intracellular Parasites"	"Gammaproteobacteria Unknown Family"	0
+"Intracellular Parasites"	"Halieaceae"	0
+"Intracellular Parasites"	"Halomonadaceae"	0
+"Intracellular Parasites"	"Hyphomonadaceae"	0
+"Intracellular Parasites"	"JGI 0000069-P22 Unknown Family"	0
+"Intracellular Parasites"	"Kangiellaceae"	0
+"Intracellular Parasites"	"Lachnospiraceae"	0
+"Intracellular Parasites"	"Methylophagaceae"	0
+"Intracellular Parasites"	"Morganellaceae"	0
+"Intracellular Parasites"	"Muribaculaceae"	0
+"Intracellular Parasites"	"Oleiphilaceae"	0
+"Intracellular Parasites"	"OM182 Clade"	0
+"Intracellular Parasites"	"Oscillospiraceae"	0
+"Intracellular Parasites"	"Oxalobacteraceae"	0
+"Intracellular Parasites"	"Peptococcaceae"	0
+"Intracellular Parasites"	"Phycisphaeraceae"	0
+"Intracellular Parasites"	"Pirellulaceae"	0
+"Intracellular Parasites"	"Piscirickettsiaceae"	0
+"Intracellular Parasites"	"Pseudohongiellaceae"	0
+"Intracellular Parasites"	"Rhodobacteraceae"	0
+"Intracellular Parasites"	"Rickettsiaceae"	2
+"Intracellular Parasites"	"Ruminococcaceae"	0
+"Intracellular Parasites"	"Saprospiraceae"	0
+"Intracellular Parasites"	"SAR11 Clade I"	0
+"Intracellular Parasites"	"SAR116 Clade"	0
+"Intracellular Parasites"	"SAR86 Clade"	0
+"Intracellular Parasites"	"Sedimenticolaceae"	0
+"Intracellular Parasites"	"Shewanellaceae"	0
+"Intracellular Parasites"	"Spirochaetaceae"	0
+"Intracellular Parasites"	"Spongiibacteraceae"	0
+"Intracellular Parasites"	"Thiotrichaceae"	0
+"Intracellular Parasites"	"Vibrionaceae"	0
+"Miscellaneous"	"Actinomarinaceae"	0
+"Miscellaneous"	"Alteromonadaceae"	0
+"Miscellaneous"	"Arcobacteraceae"	2
+"Miscellaneous"	"Bacteroidaceae"	0
+"Miscellaneous"	"Cellvibrionaceae"	1
+"Miscellaneous"	"Colwelliaceae"	3
+"Miscellaneous"	"Cryomorphaceae"	2
+"Miscellaneous"	"Erysipelotrichaceae"	1
+"Miscellaneous"	"Flavobacteriaceae"	6
+"Miscellaneous"	"Fokiniaceae"	0
+"Miscellaneous"	"Francisellaceae"	0
+"Miscellaneous"	"Gammaproteobacteria Unknown Family"	0
+"Miscellaneous"	"Halieaceae"	0
+"Miscellaneous"	"Halomonadaceae"	0
+"Miscellaneous"	"Hyphomonadaceae"	1
+"Miscellaneous"	"JGI 0000069-P22 Unknown Family"	2
+"Miscellaneous"	"Kangiellaceae"	1
+"Miscellaneous"	"Lachnospiraceae"	0
+"Miscellaneous"	"Methylophagaceae"	0
+"Miscellaneous"	"Morganellaceae"	3
+"Miscellaneous"	"Muribaculaceae"	0
+"Miscellaneous"	"Oleiphilaceae"	0
+"Miscellaneous"	"OM182 Clade"	2
+"Miscellaneous"	"Oscillospiraceae"	4
+"Miscellaneous"	"Oxalobacteraceae"	1
+"Miscellaneous"	"Peptococcaceae"	1
+"Miscellaneous"	"Phycisphaeraceae"	2
+"Miscellaneous"	"Pirellulaceae"	1
+"Miscellaneous"	"Piscirickettsiaceae"	1
+"Miscellaneous"	"Pseudohongiellaceae"	1
+"Miscellaneous"	"Rhodobacteraceae"	3
+"Miscellaneous"	"Rickettsiaceae"	0
+"Miscellaneous"	"Ruminococcaceae"	0
+"Miscellaneous"	"Saprospiraceae"	0
+"Miscellaneous"	"SAR11 Clade I"	0
+"Miscellaneous"	"SAR116 Clade"	0
+"Miscellaneous"	"SAR86 Clade"	0
+"Miscellaneous"	"Sedimenticolaceae"	1
+"Miscellaneous"	"Shewanellaceae"	1
+"Miscellaneous"	"Spirochaetaceae"	1
+"Miscellaneous"	"Spongiibacteraceae"	0
+"Miscellaneous"	"Thiotrichaceae"	1
+"Miscellaneous"	"Vibrionaceae"	0
